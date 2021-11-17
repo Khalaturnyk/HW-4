@@ -1,0 +1,24 @@
+.header-text-container{
+    color: #fff;
+}
+
+.head-container{
+    display: flex;
+    background-color: #ED4C5C;
+    color: #fff;
+    text-align: center;
+}
+
+.main-container{
+    background-color: #fff;
+    width: 1440px;
+    height: 500px;
+}
+
+.main-container-blocks{
+    display: flex;
+}
+
+.Footer-menu{
+    display: flex;
+}

@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 94px 0px;
+    padding: 94px 216px 94px 164px;
 }
 
 .Left-block{
@@ -22,16 +22,41 @@
     flex-direction: column;
     justify-content: space-around;
     height: 315px;
+    padding-left:  170px;
+    padding-bottom: 30px;
 
 }
 .header-container-name{
     font-size: 36px;
     font-weight: 600;
     font-style: normal;
-    width: 445px;
+    width: 80%;
     height: 107px;
+    padding-bottom: 100px;
 }
 
+.header-text-container{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    width: 60%;
+    height:64px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.icons-conteiner{
+    width: 20%;
+    height:34px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-image{
+    margin-right: 100px;
+}
 .main-container{
     background-color: #fff;
     width: 1440px;

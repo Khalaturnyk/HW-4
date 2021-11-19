@@ -61,10 +61,37 @@
     background-color: #fff;
     width: 1440px;
     height: 500px;
-    display: flex;
+    margin: 0px;
 }
 
+.main-container-blocks{
+    display: flex;
+    flex-direction: row;
+    padding: 117px 165px 78px 176px;
+}
 
+.Contact-conteiner{
+    margin-left: 160px;
+    align-content: flex-start;
+    width: 445px;
+    height: 160px;
+}
+
+.Contact-name{
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+
+.Contact-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    text-align: justify;
+    padding-top: 35px;
+}
 .Footer-menu{
     display: flex;
 }

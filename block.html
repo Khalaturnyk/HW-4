@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="head-container">
-        <div class="head-container-iteams">
+        <div class="head-container-block">
             <div class="header-container-name">
                 <h2>Stay focused on saving money</h2>
             </div>
@@ -18,15 +18,13 @@
                     It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!
                 </p>
             </div>
-            <div>
+            <div class="header-container-icon">
                 <img src="ion-logo-google-playstore.png" alt="playstore-logo">
                 <img src="ion-logo-apple-appstore.png" alt="apple-logo">
                 <img src="simple-icons_windows.png" alt="simple-icons_windows">
             </div>
         </div>
-        <div>
-            <img src="Slider.png" alt="Slider">
-        </div>
+        <img class="container-img" src="Slider.png" alt="Slider">
     </header>
     <main class="main-container">
         <div class="main-container-blocks">
@@ -37,17 +35,21 @@
                 </div>
             </div>
             <div class="main-container-registration">
+                <div>
                     <input type="text" name="First Name" value="First Name">
                     <input type="text" name="Last Name" value="Last Name">
-                    <br>
+                </div>
+                <div>
                     <input type="tel" name="Phone Number" value="Phone Number">
-                    <br>
-                    <select name="Select Service" id="#">Select Service
-                        <option value="Sales">Sales</option>
-                        <option value="Discounts">Discounts</option>
-                        <option value="Discount coupons">Discount coupons</option>
+                </div>
+                <div>
+                    <select name="Select Service" id="#">
+                        <option value="0">Select Service</option>
+                        <option value="1">Sales</option>
+                        <option value="2">Discounts</option>
+                        <option value="3">Discount coupons</option>
                     </select>
-                    <br>
+                </div>
                 <button>Submit Now</button>
             </div>
         </div>
@@ -86,7 +88,7 @@
             </div>
         </menu>
         <div>
-           <p>Copyright 2018 CloudBudget</p> 
+        <p>Copyright 2018 CloudBudget</p> 
         </div>
     </footer>
 </body>

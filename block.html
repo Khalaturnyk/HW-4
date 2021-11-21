@@ -21,9 +21,9 @@
                         </p>
                     </div>
                     <div class="icons-conteiner">
-                        <img src="ion-logo-google-playstore.png" alt="playstore-logo">
-                        <img src="ion-logo-apple-appstore.png" alt="apple-logo">
-                        <img src="simple-icons_windows.png" alt="simple-icons_windows">
+                        <img src="ion-logo-google-playstore.png" alt="playstore-logo" class="icons">
+                        <img src="ion-logo-apple-appstore.png" alt="apple-logo" class="icons">
+                        <img src="simple-icons_windows.png" alt="simple-icons_windows" class="icons">
                     </div>
                 </div>
                 <div class="header-image">
@@ -41,34 +41,37 @@
                 </div>
             </div>
             <div class="main-container-registration">
-                <div>
-                    <input type="text" name="First Name" value="First Name">
-                    <input type="text" name="Last Name" value="Last Name">
-                </div>
-                <div>
-                    <input type="tel" name="Phone Number" value="Phone Number">
-                </div>
-                    <select name="Select Service" id="#">Select Service
+                <div class="registration-form">
+                    <div class="input-name">
+                        <input type="text" placeholder="First-name" class="input-first-name">
+                        <input type="text" placeholder="Last-name" class="input-Last-name">
+                    </div>
+                    <div>
+                        <input type="tel" placeholder="Phone Number" class="input-Phone-Number">
+                    </div>
+                    <select class="Selected" name="Select Service" id="#">Select Service
                         <option value="Select Service">Select Service</option>
                         <option value="Sales">Sales</option>
                         <option value="Discounts">Discounts</option>
                         <option value="Discount coupons">Discount coupons</option>
                     </select>
-                    <br>
-                <button>Submit Now</button>
+                </div>
+                <div>
+                    <button class="button-Submit">Submit Now</button>
+                </div>
             </div>
         </div>
     </main>
     <footer>
         <menu class="Footer-menu">
-            <div>
-                <h4>Address</h4>
-                <p>
+            <div class="Address-block">
+                <h4 class="Footer-menu-sections">Address</h4>
+                <p class="Address-text-block">
                     Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor 1090 Picosia USA
                 </p>
             </div>
             <div>
-                <h4>Services</h4>
+                <h4 class="Footer-menu-sections">Services</h4>
                 <p>Overview</p>
                 <p>Features</p>
                 <p>Technology</p>
@@ -76,7 +79,7 @@
             </div>
             <div>
                 <div>
-                    <h4>Get in Touch</h4>
+                    <h4 class="Footer-menu-sections">Get in Touch</h4>
                     <a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
                     <br>
                     <a href="tel:+1 844-721-7120">+1 844-721-7120</a>
@@ -88,7 +91,7 @@
                 </div>
             </div>
             <div>
-                <h4>We Support</h4>
+                <h4 class="Footer-menu-sections">We Support</h4>
                 <a href="#"> <img src="secure-p-1 1.png" alt="Payment"></a>
             </div>
         </menu>

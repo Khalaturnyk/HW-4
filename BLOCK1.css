@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-.header{
-
+.body{
+    width: 100%;
+    height: 100%;
 }
+
 
 .header-container{
     width: 100%;
@@ -51,30 +54,36 @@
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
+}
 
+.icons{
+    cursor: pointer;
 }
 
 .header-image{
     margin-right: 100px;
 }
 .main-container{
+    width: 100%;
     background-color: #fff;
-    width: 1440px;
     height: 500px;
-    margin: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container-blocks{
     display: flex;
-    flex-direction: row;
-    padding: 117px 165px 78px 176px;
+
+
 }
 
 .Contact-conteiner{
-    margin-left: 160px;
-    align-content: flex-start;
     width: 445px;
     height: 160px;
+    margin-right: 330px;
+ 
 }
 
 .Contact-name{
@@ -82,6 +91,7 @@
     font-weight: 600;
     font-style: normal;
     color: #000;
+
 }
 
 .Contact-text{
@@ -89,9 +99,108 @@
     font-weight: 400;
     font-style: normal;
     color: #000;
-    text-align: justify;
     padding-top: 35px;
 }
+
+.main-container-registration{
+    width: 540px;
+    height: 305px;
+    margin: 0 auto;
+    
+}
+
+.input-name{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.input-first-name{
+    border: 1px solid #333333;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    width: 220px;
+    height: 60px;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 30px;
+}
+
+.input-Last-name{
+    border: 1px solid #333333;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    width: 220px;
+    height: 60px;
+    padding-left: 30px;
+}
+
+.input-Phone-Number{
+    border: 1px solid #333333;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    width: 505px;
+    height: 60px;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.Selected{
+    border: 1px solid #333333;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    width: 540px;
+    height: 60px;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.button-Submit{
+    border: 1,5px;
+    border-color: rgba(237, 76, 92, 1);
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(237, 76, 92, 1);
+    color: #fff;
+    padding: 17px 34px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .Footer-menu{
     display: flex;
+    flex-direction: row;
+    padding-left: 340px;
+    width: 100%;
+    height: 435px;
 }
+
+.Address-block{
+    width: 210px;
+    height: 264px;
+}
+
+.Footer-menu-sections{
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+}
+
+.Address-text-block{
+
+}
+

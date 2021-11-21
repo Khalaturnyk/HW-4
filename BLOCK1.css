@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-.body{
-    width: 100%;
-    height: 100%;
+body{
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -67,7 +71,7 @@
     width: 100%;
     background-color: #fff;
     height: 500px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,17 +183,20 @@
     font-weight: 400;
     font-style: normal;
 }
+footer{
+    width: 100%;
+    height: 435px;
+    padding-top: 30px;
+}
 
 .Footer-menu{
     display: flex;
     flex-direction: row;
     padding-left: 340px;
-    width: 100%;
-    height: 435px;
 }
 
 .Address-block{
-    width: 210px;
+    width: 180px;
     height: 264px;
 }
 
@@ -198,9 +205,92 @@
     font-weight: 700;
     font-style: normal;
     text-align: left;
+    color: rgba(16, 16, 16, 1);
 }
 
 .Address-text-block{
-
+    color:rgba(16, 16, 16, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-top: 20px;
 }
 
+.Services-block{
+    margin-left: 150px;
+    width: 180px;
+    height: 264px;
+}
+
+.Services-block-list{
+    padding-top: 5px;
+    color:rgba(16, 16, 16, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.services-items{
+    cursor: pointer;
+}
+
+.Get-in-Touch-block{
+    margin-left: 150px;
+    width: 180px;
+    height: 264px;
+}
+
+.contact-menu{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    padding-bottom: 10px;
+    cursor: pointer;
+    color:rgba(16, 16, 16, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.phone-number{
+    padding-bottom: 10px;
+    cursor: pointer;
+    color:rgba(16, 16, 16, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Social-networks {
+    padding-top: 15px;
+}
+
+.Social-networks a {
+    display: inline-flex;
+    padding-right: 14px;
+    margin-top: 3px;
+}
+
+.Pay-block{
+    margin-left: 160px;
+    width: 180px;
+    height: 264px; 
+}
+
+.Pay-block a {
+    padding-top: 10px;
+}
+
+.body-signature{
+    padding-left: 340px;
+}
+
+.body-signature-text{
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}

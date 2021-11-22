@@ -21,15 +21,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 94px 216px 94px 164px;
 }
 
 .Left-block{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 600px;
     height: 315px;
-    padding-left:  170px;
     padding-bottom: 30px;
 
 }
@@ -37,7 +36,7 @@ a {
     font-size: 36px;
     font-weight: 600;
     font-style: normal;
-    width: 80%;
+    width: 100%;
     height: 107px;
     padding-bottom: 100px;
 }
@@ -65,7 +64,7 @@ a {
 }
 
 .header-image{
-    margin-right: 100px;
+    margin-right: 0px;
 }
 .main-container{
     width: 100%;
@@ -75,18 +74,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
 
 .main-container-blocks{
     display: flex;
-
 
 }
 
 .Contact-conteiner{
     width: 445px;
     height: 160px;
-    margin-right: 330px;
+
  
 }
 
@@ -110,7 +110,7 @@ a {
     width: 540px;
     height: 305px;
     margin: 0 auto;
-    
+    padding-left: 190px;
 }
 
 .input-name{
@@ -192,7 +192,10 @@ footer{
 .Footer-menu{
     display: flex;
     flex-direction: row;
-    padding-left: 340px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-inline-start:0px;
 }
 
 .Address-block{
@@ -276,7 +279,7 @@ footer{
 }
 
 .Pay-block{
-    margin-left: 160px;
+    margin-left: 130px;
     width: 180px;
     height: 264px; 
 }
@@ -286,7 +289,7 @@ footer{
 }
 
 .body-signature{
-    padding-left: 340px;
+    padding-left: 440px;
 }
 
 .body-signature-text{
